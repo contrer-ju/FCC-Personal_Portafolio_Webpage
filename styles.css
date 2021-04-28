@@ -32,11 +32,14 @@ body {
 
 #welcome-section {
   height: 100vh;
+  max-width: 90vw;
+  margin: auto;
 }
 
 #welcome-img {
   width: auto;
   height: 60vh;
+  overflow: hidden;
   text-align: center;
   display: flex;
   align-items: center;
@@ -54,8 +57,13 @@ body {
 }
 
 .welcome-text {
-  height: 30vh;
-  padding: 0 30px 0;
+  text-align: justify;
+  font-weight: bold;
+}
+
+#projects {
+  max-width: 90vw;
+  margin: auto;
 }
 
 #projects-flex {
@@ -78,4 +86,9 @@ body {
 .project-img {
   width: 300px;
   height: auto;
+}
+
+.project-tile {
+  text-align: center;
+  font-weight: bold;
 }
